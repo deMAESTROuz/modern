@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="../js/mainSliderScritpt.js"></script>
     <script src="../js/showsGridScript.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Театр Модерн</title>
 </head>
 
@@ -38,7 +35,7 @@
         <div id="logo-subtext">художественный руководитель Юрий Грымов</div>
 
         <!-- Десктопное меню -->
-        <div id="nav-menu"> <a href="" class="menu-item">Билеты</a> <a href="" class="menu-item">Спектакли</a> <a
+        <div id="nav-menu"> <a href="./index.html" class="menu-item">Билеты</a> <a href="./spektakl.html" class="menu-item">Спектакли</a> <a
                 href="" class="menu-item">О театре</a> <a href="" class="menu-item">Новости</a> <a href=""
                 class="menu-item">Труппа</a> <a href="" class="menu-item"> <img src="../img/vip.svg" alt=""
                     id="vip-img"> </a> <a href="" class="menu-item">Галерея</a> <a href=""
@@ -78,21 +75,7 @@
                 <div class="slider">
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="" class="slide-image-container_img">
-                            <img src="../img/slides/leo-4.png" alt="" class="slide-image-container_img_1">
-                        </picture>
-                        <div id="slider-content">
-                            <h3 id="slider-title-h3">Премьера</h3>
-                            <div id="slider-title">Скотный двор</div>
-                            <p id="slider-text">27 сентября в 18:00</p>
-                            <a class="btn slider-btn" href="">
-                                Купить билет
-                            </a>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-1.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -103,7 +86,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-2.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -114,7 +97,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-1.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -125,7 +108,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.jpg" alt="">
+                            <img src="../img/slides/leo-2.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -136,7 +119,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-1.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -147,7 +130,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.jpg" alt="">
+                            <img src="../img/slides/leo-2.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -158,7 +141,7 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-1.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -169,7 +152,18 @@
                     </div>
                     <div class="slide">
                         <picture class="slide-image-container">
-                            <img src="../img/slides/leo-3.png" alt="">
+                            <img src="../img/slides/leo-2.jpg" alt="">
+                        </picture>
+                        <div id="slider-content">
+                            <div id="slider-title">Леонардо</div>
+                            <a class="btn slider-btn" href="">
+                                Купить билет
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <picture class="slide-image-container">
+                            <img src="../img/slides/leo-1.jpg" alt="">
                         </picture>
                         <div id="slider-content">
                             <div id="slider-title">Леонардо</div>
@@ -190,187 +184,463 @@
 
             </div>
         </div>
+        <div class="shows-block-container">
+            <div class="shows-block-button-container">
+                <a class="btn shows-block-btn green-btn" id="afisha-btn" href="">
+                    <div class="shows-btn-title">Афиша | Билеты</div>
+                    <div class="shows-btn-arrow">
 
-        <section class="based">
-            <div class="based-container">
-                <div class="based_row">
-                    <h2 class="based_title">
-                        В основе спектакля
-                        <br> — мировой бестселлер Джорджа Оруэлла 
-                        <br>
-                        "Скотный двор"
-                    </h2>
-                    <p class="based_text">
-                        События, описанные автором, происходят в Англии. Автор пьесы - Марина Сулчани.
-                    </p>
-                    <p class="based_text_1">
-                        "Мы приходим в этот мир млекопитающими. Только культура, религия и образование позволяют нам
-                        стать Человеком.
-                         <br><br>
-                        Лично я — страшный противник революций. Все должно происходить эволюционным путем, природа это
-                        доказывала неоднократно. Так же, как и обратное — сколько раз человечество сталкивалось с
-                        ужасными последствиями революций?! Наша задача как людей — разумно распорядиться тем, что дала
-                        нам природа.....
-                    </p>
-                    <h4 class="based_title_1">
-                        Более подробно
-                        <img src="../img/based/based_logo.svg" alt="" class="based_row_img">
-                    </h4>
-                </div>
-                <div class="based_col">
-                    <div class="based_col_box">
-                        <div class="based_col_box_1">
-                            <p class="based_col_1_text">4.9/<span>5</span></p>
-                            <img src="../img/based/based_img_1.png" alt="">
-                        </div>
-                        <div class="based_col_box_1">
-                            <p class="based_col_1_text">4.9/<span>5</span></p>
-                            <img src="../img/based/based_img_2.png" alt="">
-                        </div>
-                        <div class="based_col_box_1">
-                            <p class="based_col_1_text">4.9/<span>5</span></p>
-                            <img src="../img/based/based_img_3.png" alt="">
-                        </div>
-                        <div class="based_col_box_1">
-                            <p class="based_col_1_text">4.9/<span>5</span></p>
-                            <img src="../img/based/based_img_4.png" alt="">
-                        </div>
+                        <img src="../img/arrow.svg" alt="">
                     </div>
-                    <div class="based_col_row">
-                        <div class="based_col_row_col_box">
-                            <img src="../img/based/based_logo_1.svg" alt="">
-                            <p class="based_col_row_col_box_text">Подходит для взрослых
-                                от 18 лет.</p>
-                        </div>
-                        <div class="based_col_row_col_box">
-                            <img src="../img/based/based_logo_2.svg" alt="">
-                            <p class="based_col_row_col_box_text">Продолжительность спектакля – 2 часа,1 антракт</p>
-                        </div>
+                </a>
+                <a class="btn shows-block-btn blue-btn" id="reviews-btn" href="">
+                    <div class="shows-btn-title">Отзывы</div>
+                    <div class="shows-btn-arrow">
+
+                        <img src="../img/arrow.svg" alt="">
                     </div>
-                    <p class="based_col_text">Внимание! В спектакле присутствуют сцены курения! Курение и употребление
-                        алкоголя вредят
-                        вашему здоровью!</p>
-                    <img src="../img/based/based_col_1_img.png" alt="" class="based_col_img">
-                </div>
+                </a>
+                <a class="btn shows-block-btn blue-btn" id="news-btn" href="">
+                    <div class="shows-btn-title">Новости</div>
+                    <div class="shows-btn-arrow">
+                        <img src="../img/arrow.svg" alt="">
+                    </div>
+                </a>
+                <a class="btn shows-block-btn blue-btn" id="butik-btn" href="">
+                    <div class="shows-btn-title">бутик</div>
+                    <div class="shows-btn-arrow">
+                        <img src="../img/arrow.svg" alt="">
+                    </div>
+                </a>
             </div>
-        </section>
-
-        <section class="picture">
-            <div class="picture-container">
-                <h2 class="picture_title">Галерея</h2>
-                <div class="picture_row">
-                    <div class="picture_col">
-                        <img class="picture_col_img_1" src="../img/galereya/galereya_logo_1.svg" alt="">
-                        <img class="picture_col_img" src="../img/galereya/galereya_img_1.png" alt="">
-                    </div>
-                    <img src="../img/galereya/galareya_img_3.png" alt="" class="picture_col_img_3">
-                    <div class="picture_col">
-                        <img class="picture_col_img" src="../img/galereya/galereya_img_2.png" alt="">
-                        <img class="picture_col_img_2" src="../img/galereya/galereya_logo_2.svg" alt="">
-                    </div>
-                </div>
-                <div class="picture_col_1">
-                    <div class="picture_col_box_1"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                    <div class="picture_col_box"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="event">
-            <div class="event-container">
-                <h2 class="event_title">Подробности мероприятия</h2>
-
-                <div class="event_row">
-                    <div class="event_col">
-                        <div class="event_row_col">
-                            <button class="event_row_btn" id="toggleCreators">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-                            <p class="event_row_text">Создатели</p>
-                        </div>
-                        <div class="event_row_col">
-                            <button class="event_row_btn" id="toggleCreators">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-                            <p class="event_row_text">Исполнители</p>
-                        </div>
-                        <div class="event_row_col">
-                            <button class="event_row_btn" id="toggleCreators">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-                            <p class="event_row_text">Интересное</p>
-                        </div>
-                        <div class="event_row_col_1">
-                            <button class="event_row_btn" id="toggleCreators">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-                            <p class="event_row_text">Послевкусие</p>
-                        </div>
-                        <div class="event_row_col">
-                            <button class="event_row_btn" id="toggleCreators">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-                            <p class="event_row_text">Отзывы</p>
+            <div class="shows-container">
+                <div class="shows-holder">
+                    <div class="show-card slider-card">
+                        <div class="show-card-image">
+                            <div class="image-slider-container">
+                                <div class="image-slider">
+                                    <!-- 7 одинаковых изображений -->
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                    <a class="image-slide" href="">
+                                        <img src="../img/shows/0.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- Точки будут созданы автоматически -->
+                                <div class="image-slider-dots"></div>
+                            </div>
+                            <div class="show-card-slider-bottom"></div>
                         </div>
                     </div>
+                    <div class="show-card ">
+                        <a class="show-card-image" href="">
+                            <div class="date-block">
+                                <div class="date-num">26</div>
+                                <div class="date-month">Августа</div>
+                                <div class="date-day-and-time">ВТ - 19:00</div>
+                            </div>
+                            <img src="../img/shows/1.jpg" alt="">
+                        </a>
+                        <div class="show-card-content">
+                            <div class="show-location">Малая сцена</div>
+                            <div class="show-authors">Автор Н. Воронов, Режиссер Ш. Мухамедов</div>
+                            <div class="show-card-button-holder">
+                                <a class="show-buy-tickets-btn btn blue-btn" href="">Купить билет</a>
+                                <a class="show-card-info-btn btn simple-btn" href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-card">
+                        <a class="show-card-image" href="">
+                            <div class="date-block">
+                                <div class="date-num">26</div>
+                                <div class="date-month">Августа</div>
+                                <div class="date-day-and-time">ВТ - 19:00</div>
+                            </div>
+                            <img src="../img/shows/2.gif" alt="">
+                        </a>
+                        <div class="show-card-content">
+                            <div class="show-location">Малая сцена</div>
+                            <div class="show-authors">Автор Н. Воронов, Режиссер Ш. Мухамедов</div>
+                            <div class="show-card-button-holder">
+                                <a class="show-buy-tickets-btn btn blue-btn" href="">Купить билет</a>
+                                <a class="show-card-info-btn btn simple-btn" href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-card">
+                        <a class="show-card-image" href="">
+                            <div class="date-block">
+                                <div class="date-num">26</div>
+                                <div class="date-month">Августа</div>
+                                <div class="date-day-and-time">ВТ - 19:00</div>
+                            </div>
+                            <img src="../img/shows/3.jpg" alt="">
+                        </a>
+                        <div class="show-card-content">
+                            <div class="show-location">Малая сцена</div>
+                            <div class="show-authors">Автор Н. Воронов, Режиссер Ш. Мухамедов</div>
+                            <div class="show-card-button-holder">
+                                <a class="show-buy-tickets-btn btn blue-btn" href="">Купить билет</a>
+                                <a class="show-card-info-btn btn simple-btn" href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-card">
+                        <a class="show-card-image" href="">
+                            <div class="date-block">
+                                <div class="date-num">26</div>
+                                <div class="date-month">Августа</div>
+                                <div class="date-day-and-time">ВТ - 19:00</div>
+                            </div>
+                            <img src="../img/shows/4.gif" alt="">
+                        </a>
+                        <div class="show-card-content">
+                            <div class="show-location">Малая сцена</div>
+                            <div class="show-authors">Автор Н. Воронов, Режиссер Ш. Мухамедов</div>
+                            <div class="show-card-button-holder">
+                                <a class="show-buy-tickets-btn btn blue-btn" href="">Купить билет</a>
+                                <a class="show-card-info-btn btn simple-btn" href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-card">
+                        <a class="show-card-image" href="">
+                            <div class="date-block">
+                                <div class="date-num">26</div>
+                                <div class="date-month">Августа</div>
+                                <div class="date-day-and-time">ВТ - 19:00</div>
+                            </div>
+                            <img src="../img/shows/5.gif" alt="">
+                        </a>
+                        <div class="show-card-content">
+                            <div class="show-location">Малая сцена</div>
+                            <div class="show-authors">Автор Н. Воронов, Режиссер Ш. Мухамедов</div>
+                            <div class="show-card-button-holder">
+                                <a class="show-buy-tickets-btn btn blue-btn" href="">Купить билет</a>
+                                <a class="show-card-info-btn btn simple-btn" href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <a class="btn white-btn show-more-shows-btn" href="">Показать еще</a>
             </div>
-        </section>
 
-        <div class="locations">
-            <p class="locations_text">
-                Рекомендованные режиссером места
-            </p>
-            <div class="locations_box">
-                <p class="locations_box_text">1 ряд с 14 по 18 место</p>
-                <p class="locations_box_text">1 ряд 15 место (место режиссера Юрия Грымова)</p>
-                <p class="locations_box_text">3 ряд с 10 по 16 место</p>
-                <p class="locations_box_text">5 ряд с 14 по 17 место</p>
-            </div>
-            <button class="locations_btn">
-                Купить билет
-            </button>
-            <img src="../img/locations/Group 372.png" alt="" class="locations_img">
-        </div>        
-
-        <div class="images">
-            <img src="../img/imagess/images.png" alt="" class="images_img">
-            <img src="../img/imagess/images_1.png" alt="" class="images_img_1">
         </div>
+        <div class="repertory-container">
+            <div class="repertory-slider-container">
+                <div class="simple-title repertory-title">Репертуар</div>
 
-        <section class="real">
-            <div class="real-container">
-                <h3 class="real_row_title_2">
-                    Мои спектакли не являются ни метафорой, ни аналогом чего-то и настаивают на своей реальности.
-                    Фантасмагория — это и есть реальность. Сверхъестественное — это тревожащая правда
-                </h3>
-                <img src="../img/real/real_img.png" alt="" class="real_img">
-                <img src="../img/real/real_img_1.png" alt="" class="real_img_1">
-                <div class="real_row">
-                    <h3 class="real_row_title">
-                        Мои спектакли не являются ни метафорой, ни аналогом чего-то и настаивают на своей реальности.
-                        Фантасмагория — это и есть реальность. Сверхъестественное — это тревожащая правда
-                    </h3>
-                    <h3 class="real_row_title_1">
-                        Юрий Грымов
-                    </h3>
-                    <p class="real_row_text">
-                        Художественный руководитель Московского драматического театра «Модерн»
-                    </p>
+                <div class="repertory-slider">
+                    <div class="repertory-slide">
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/1.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/2.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/3.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/4.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/5.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="repertory-slide">
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/1.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/2.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/3.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/4.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/5.jpg" alt="">
+                        </a>
+                        <a class="repertory-item" href="">
+                            <img src="../img/repertory/6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <button class="repertory-arrow prev">
+                    <img src="../img/arrow.svg" alt="">
+                </button>
+                <button class="repertory-arrow next">
+                    <img src="../img/arrow.svg" alt="">
+                </button>
+
+                <div class="repertory-dots">
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="interviews-container">
+            <div class="simple-title">Интервью</div>
+            <div class="interviews-holder">
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/1.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/2.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/3.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/4.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/5.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+                <a class="interview-item" href="">
+                    <img src="../img/interviews/6.png" alt="">
+                    <div class="interview-name">Тони Карапетян</div>
+                </a>
+            </div>
+        </div>
+        <div class="quote-container">
+            <div class="quote-holder">
+                <p>Театр — это не здание. Это, прежде всего, люди, которые там работают и которые приходят на спектакли.
+                    Вы
+                    приходите в театр и приобретаете немного знаний о себе. Театр — это живая традиция, непрерывно
+                    развивающаяся и обновляющаяся. Театр — это всегда высказывание. «Модерн» хочет жить — ярко, полно,
+                    по-настоящему! Мы хотим говорить со зрителем современным языком — даже если на сцене классическое
+                    произведение. «Модерн» — значит современный и он верен традициям русского театра.</p>
+            </div>
+            <div class="signature-holder">
+                <img src="../img/signature.svg" alt="">
+                <div class="signature-text">Юрий Грымов, художественный руководитель Московского драматического театра
+                    «Модерн»</div>
+            </div>
+        </div>
+        <div class="margin-135-container">
+            <div class="simple-title">Отзывы</div>
+            <div class="reviews-holder">
+                <div class="review-item">
+                    <div class="review-name">Ольга</div>
+                    <div class="review-date">23 июня 2025</div>
+                    <div class="review-text">Спектакль «Цветы нам не нужны»: когда становишься зрителем не просто
+                        спектакля,
+                        а процесса, истории, результата многолетнего исследования режиссера… Такая возможность увидеть,
+                        услышать и
+                    </div>
+                    <div class="review-arrow">
+                        <img src="../img/review-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-name">Светлана</div>
+                    <div class="review-date">14 июня 2025</div>
+                    <div class="review-text">Наконец удалось посмотреть в театре Модерн один из лучших спектаклей Москвы
+                        "Война и мир". Мне о нём много и с восхищением рассказывали и рекомендовали. И спектакль
+                        превзошёл
+                        мои ожидания! Модерн созда</div>
+                    <div class="review-arrow">
+                        <img src="../img/review-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="margin-135-container">
+            <div class="interesting-container-title">Интересное</div>
+            <div class="interesting-holder">
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/1.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">Третий звонок</div>
+                        <div class="interesting-description">Обратите внимание: вход в зал после третьего звонка
+                            запрещен! 
+                        </div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
 
+                </a>
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/2.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">Авторская программа Юрия Грымова</div>
+                        <div class="interesting-description">«Человек с Большой буквы»
+                            — вт/чт 17:40, Радио 7.м </div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/3.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">М-буфет</div>
+                        <div class="interesting-description">Оригинальные и вкусные закуски, десерты, сувенирные
+                            сладости
+                            ресторана «Луч»!</div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/4.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">Онлайн-Магазин</div>
+                        <div class="interesting-description">В фойе театра — фирменные сувениры «МОДЕРН»</div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/5.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">Встречи
+                            со зрителями</div>
+                        <div class="interesting-description">После спектаклей «МОДЕРН» — встречи с Юрием Грымовым и
+                            актёрами.
+                            Подробности на сайте</div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <a class="interesting-item" href="">
+                    <img src="../img/interesting/6.png" alt="">
+                    <div class="interesting-info">
+                        <div class="interesting-title">Специальный проект театра «МОДЕРН»</div>
+                        <div class="interesting-description">«МОДЕРН» продолжает проект «ПРИХОДИТЕ СЕГОДНЯ»</div>
+                        <div class="interesting-arrow">
+                            <img src="../img/interesting-arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="dress-code-mobile"></div>
+        </div>
+        <div class="margin-135-container">
+            <div class="genres-title">Московский театр «Модерн»</div>
+            <div class="genres-subtitle">ждет своего зрителя на сценах</div>
+            <div class="genres-holder">
+                <a class="genre-item" href="">
+                    <img src="../img/genres/1.png" alt="">
+                    <div class="genre-title">Драма</div>
+                </a>
+                <a class="genre-item" href="">
+                    <img src="../img/genres/2.png" alt="">
+                    <div class="genre-title">Трагедия</div>
+                </a>
+                <a class="genre-item" href="">
+                    <img src="../img/genres/3.png" alt="">
+                    <div class="genre-title">Комедия</div>
+                </a>
+                <a class="genre-item" href="">
+                    <img src="../img/genres/4.png" alt="">
+                    <div class="genre-title">Детские</div>
+                </a>
+                <a class="genre-item" href="">
+                    <img src="../img/genres/5.png" alt="">
+                    <div class="genre-title">Другое</div>
+                </a>
+                <a class="genre-item" href="">
+                    <img src="../img/genres/6.png" alt="">
+                    <div class="genre-title">Лекции</div>
+                </a>
+            </div>
+        </div>
+        <div class="margin-135-container">
+            <div class="logo-bg-container">
+                <div class="logo-slider-container">
+                    <div class="logo-slider">
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/1.png" alt="Logo 1">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/2.png" alt="Logo 2">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/3.png" alt="Logo 3">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/4.png" alt="Logo 4">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/5.png" alt="Logo 5">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/1.png" alt="Logo 1">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/2.png" alt="Logo 2">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/3.png" alt="Logo 3">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/4.png" alt="Logo 4">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/5.png" alt="Logo 5">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/1.png" alt="Logo 1">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/2.png" alt="Logo 2">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/3.png" alt="Logo 3">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/4.png" alt="Logo 4">
+                        </a>
+                        <a class="logo-slide" href="">
+                            <img src="../img/logos/5.png" alt="Logo 5">
+                        </a>
+                    </div>
+                    <button class="logo-arrow prev">
+                        <img src="../img/arrow.svg" alt="">
+                    </button>
+                    <button class="logo-arrow next">
+                        <img src="../img/arrow.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="margin-135-container">
                 <div class="contacts-block">
@@ -476,8 +746,6 @@
                 </div>
         </footer>
     </main>
-
-
 </body>
 
 </html>
